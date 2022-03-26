@@ -1,0 +1,43 @@
+lockfileVersion: 5.3
+
+specifiers:
+  csv: ^6.0.5
+  prettier: ^2.5.1
+
+dependencies:
+  csv: 6.0.5
+  prettier: 2.6.1
+
+packages:
+
+  /csv-generate/4.0.4:
+    resolution: {integrity: sha512-6/0FOBbF4O+EBSAYsfOXBjIFhyPpfeeeuWEM4XJQhc/6TvDDL9AGFQNPh2SKlFx7VYERBDmZAWnITgaa+z4BJA==}
+    dev: false
+
+  /csv-parse/5.0.4:
+    resolution: {integrity: sha512-5AIdl8l6n3iYQYxan5djB5eKDa+vBnhfWZtRpJTcrETWfVLYN0WSj3L9RwvgYt+psoO77juUr8TG8qpfGZifVQ==}
+    dev: false
+
+  /csv-stringify/6.0.5:
+    resolution: {integrity: sha512-7xpV3uweJCFF/Ssn56l3xsR/k2r3UqszwjEhej9qEn2cCPzyK1WyHCgoUVzBA792x8HbwonNX7CU9XM2K5s5yw==}
+    dev: false
+
+  /csv/6.0.5:
+    resolution: {integrity: sha512-VyII851P4BvzMsXenhtR7g3mARmZ3HvBX16PD85E8IOoxyvNT9e74egbfdkYBj5SGHh1LphCWXeQvskijH+kfg==}
+    engines: {node: '>= 0.1.90'}
+    dependencies:
+      csv-generate: 4.0.4
+      csv-parse: 5.0.4
+      csv-stringify: 6.0.5
+      stream-transform: 3.0.4
+    dev: false
+
+  /prettier/2.6.1:
+    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: false
+
+  /stream-transform/3.0.4:
+    resolution: {integrity: sha512-g2jbk1hs3GiF3oHZLbR7Fph/PXh/3xHoz/D8aR2oHySE4xVUvNeTGqihhb1vxFjYyu4inqiTfT42g2MHBjjx0g==}
+    dev: false
